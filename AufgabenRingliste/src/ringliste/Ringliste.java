@@ -14,7 +14,7 @@ public class Ringliste {
 	}
 
 	public int zaehlen(){
-		int start = inhalt;
+		int start = this.getInhalt();
 		int zaehler = 1;
 
 		Ringliste aktuellesElement = verweis;
